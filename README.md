@@ -4,9 +4,6 @@
 
 
 
-```sh
-npm create astro@latest -- --template portfolio
-```
 
 
 ## 🧞 Commands
