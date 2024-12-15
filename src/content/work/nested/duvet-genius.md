@@ -1,10 +1,10 @@
 ---
-title: Duvet Genius
+title: OpenALPR Automatic License Plate Recognition with javascript/nextjs
 publishDate: 2020-03-04 00:00:00
-img: /assets/coding_setup6.jpg
-img_alt: Pearls of silky soft white cotton, bubble up under vibrant lighting
+img: /assets/code_setup6.jpg
+img_alt: coding setup 
 description: |
-  We developed a virtual showcase for the softest bedding imaginable.
+  OpenALPR Automatic License Plate Recognition with nextjs
 tags:
   - Design
   - Dev

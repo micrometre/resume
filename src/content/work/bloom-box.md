@@ -1,11 +1,10 @@
 ---
-title: Bloom Box
+title:  OpenALPR Automatic License Plate Recognition with python/flask
 publishDate: 2019-12-01 00:00:00
 img: /assets/cloud_2.jpg
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: cloud computing image
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  python3 Open anpr web ui
 tags:
   - Dev
   - Branding
