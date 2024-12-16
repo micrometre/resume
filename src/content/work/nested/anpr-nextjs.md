@@ -7,5 +7,4 @@ description: OpenALPR Automatic License Plate Recognition with javascript/nextjs
 tags:
   - Design
   - Dev
-  - Branding
 ---
