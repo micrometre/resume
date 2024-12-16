@@ -27,6 +27,4 @@ tags:
 <a href="https://github.com/micrometre/pyalpr.git" target="_blank">Get the Source code:https://github.com/micrometre/flaskalpr.git</a>
 
 
-
-
-![Alt text](/public/assets/demo1.png "Title")
+![A local image](/public/assets/demo1.png)
