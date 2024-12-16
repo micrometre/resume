@@ -1,5 +1,5 @@
 ---
-title:  OpenALPR Automatic License Plate Recognition with python/flask
+title:  ANPR/ALPR Flask
 publishDate: 2019-12-01 00:00:00
 img: /assets/cloud_2.jpg
 img_alt: cloud computing image
