@@ -6,7 +6,6 @@ img_alt: cloud computing image
 description: Building a Real-Time License Plate Recognition System with OpenALPR, Flask, and Redis
 tags:
   - Dev
-  - Backend
 ---
 
 ##### Understanding the Core Components:
@@ -41,13 +40,17 @@ tags:
 
 1. Video Input:
 - The system can ingest video feeds from various sources like IP cameras, local files, or live streams.
+
 2. OpenALPR:
 - OpenALPR, a powerful open-source automatic license plate recognition software, processes the video frames to detect and recognize license plates.
+
 3. Flask Application:
 - The Flask application acts as an API endpoint to receive the recognized license plates from OpenALPR.
 It stores the license plate information in a Redis database.
+
 4. Redis Database:
-Redis is used to store the recognized license plates and act as a message broker for real-time updates.
+- Redis is used to store the recognized license plates and act as a message broker for real-time updates.
+
 5. Server-Sent Events (SSE):
 - SSE is used to push real-time updates from the server to the client-side applications.
 Clients can subscribe to the SSE endpoint to receive notifications whenever a new license plate is detected.
@@ -122,5 +125,3 @@ if __name__ == '__main__':
 
 <a href="https://github.com/micrometre/pyalpr.git" target="_blank">Get the Source code:https://github.com/micrometre/flaskalpr.git</a>
 
-
-![A local image](/public/assets/demo1.png)
