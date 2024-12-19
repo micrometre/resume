@@ -227,7 +227,19 @@ h5 {
 	gap: 12rem;
 }
 
-@media (min-width: 50em) {
+
+.astro-code,
+.astro-code span {
+	display: flex;
+	align-items: center;
+	transition: var(--transition-speed);
+  /* Optional, if you also want font styles */
+}
+
+
+
+
+ @media (min-width: 50em) {
 	.lg\:gap-2 {
 		gap: 0.5rem;
 	}

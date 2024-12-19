@@ -108,11 +108,6 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-
-
-
-
-
 ### Key Considerations:
 
 - Scalability: For high-traffic applications, consider using a robust message broker like RabbitMQ or Kafka.
@@ -123,5 +118,6 @@ if __name__ == '__main__':
 
 
 
-<a href="https://github.com/micrometre/pyalpr.git" target="_blank">Get the Source code:https://github.com/micrometre/flaskalpr.git</a>
+ ######  Get the Source code: https://github.com/micrometre/flaskalpr.git
+ <a href="https://github.com/micrometre/pyalpr.git" target="_blank">  </a>
 
