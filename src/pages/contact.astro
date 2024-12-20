@@ -1,9 +1,10 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+
 import FeedbackForm from '../components/FeedbackForm.astro';
 ---
 
-<Layout title="Astro Toolbox">
+<BaseLayout>
   <main>
     <div class="header">
       <div class="logo">
@@ -37,7 +38,7 @@ import FeedbackForm from '../components/FeedbackForm.astro';
       <h3>Click here for function-loaded jokes!</h3>
     </a>
   </main>
-</Layout>
+</BaseLayout>
 
 <style>
   .logo img {
