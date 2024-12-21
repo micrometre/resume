@@ -136,12 +136,6 @@ const isCurrentPage = (href: string) => {
 </script>
 
 <style>
-	nav {
-		position: relative;
-		font-family: var(--font-brand);
-		font-weight: 500;
-		margin-bottom: 3.5rem;
-	}
 
 	.menu-header {
 		display: flex;
@@ -160,7 +154,7 @@ const isCurrentPage = (href: string) => {
 	}
 
 	.menu-button {
-		position: relative;
+		position: fixed;
 		display: flex;
 		border: 0;
 		border-radius: 999rem;
@@ -280,7 +274,7 @@ const isCurrentPage = (href: string) => {
 		}
 
 		.nav-items {
-			position: relative;
+			position: fixed;
 			flex-direction: row;
 			font-size: var(--text-sm);
 			border-radius: 999rem;
