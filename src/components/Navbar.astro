@@ -40,11 +40,8 @@ const isCurrentPage = (href: string) => {
 
 <!-- Main header component -->
   <!-- Navigation container -->
-  <nav>
-
   <nav
-  class="fixed inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start"
-  >
+  class="fixed inset-x-0 top-4 z-50 flex w-full flex-wrap text-sm md:flex-nowrap md:justify-start">
     <div class="menu-header">
       <a href="/" class="site-title">
         <Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
@@ -116,27 +113,7 @@ const isCurrentPage = (href: string) => {
       </div>
     </div>
   </nav>
-
-
-    <div class="flex items-center justify-between">
-      <!-- Brand logo -->
-      <a
-        class="flex-none rounded-lg text-xl font-bold outline-none ring-zinc-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none"
-        aria-label="Brand"
-      >
-        <BrandLogo class="h-auto w-24" />
-      </a>
-      <!-- Collapse toggle for smaller screens -->
-      <div class="ml-auto mr-5 md:hidden">
-
-      </div>
-      <!-- ThemeIcon component specifically for smaller screens -->
-      <span class="inline-block md:hidden">
-        <ThemeIcon />
-      </span>
-    </div>
-    <!-- Contains navigation links -->
-  </nav>
+</header>
 
 
 
