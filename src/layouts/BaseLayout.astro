@@ -32,7 +32,7 @@ const { title, description } = Astro.props;
 		</script>
 
 		<style>
-			:root {
+						:root {
 				--_placeholder-bg: linear-gradient(transparent, transparent);
 				--bg-image-main: url('/assets/backgrounds/bg-main-light-800w.jpg');
 				--bg-image-main-curves: url('/assets/backgrounds/bg-main-light.svg');
@@ -50,7 +50,6 @@ const { title, description } = Astro.props;
 			:root.theme-dark {
 				--bg-image-main: url('/assets/backgrounds/bg-main-dark-800w.jpg');
 				--bg-image-main-curves: url('/assets/backgrounds/bg-main-dark.svg');
-
 				--bg-svg-blend-mode: darken;
 				--bg-blend-mode: lighten;
 			}
@@ -73,7 +72,9 @@ const { title, description } = Astro.props;
 					--bg-scale: 1;
 					--bg-image-main: url('/assets/backgrounds/bg-main-light-1440w.jpg');
 				}
-
+				:root.theme-dark {
+					--bg-image-main: url('/assets/backgrounds/bg-main-dark-1440w.jpg');
+				}
 
 				:root.loaded {
 					--bg-image-subtle-1: url('/assets/backgrounds/bg-subtle-1-light-1440w.jpg');
@@ -92,6 +93,7 @@ const { title, description } = Astro.props;
 				isolation: isolate;
 				background:
 					/*noise*/
+					url('/assets/backgrounds/noise.png') top center/220px repeat,
 					/*footer*/ var(--bg-image-footer) bottom center/var(--bg-gradient-size) no-repeat,
 					/*header1*/ var(--bg-image-main-curves) top center/var(--bg-gradient-size) no-repeat,
 					/*header2*/ var(--bg-image-main) top center/var(--bg-gradient-size) no-repeat,
