@@ -1,7 +1,7 @@
 ---
 title:  ANPR/ALPR Flask
 publishDate: 2019-12-01 00:00:00
-img: /assets/alpr_uk3.webp
+img: /assets/alpr_collage0.webp
 img_alt: cloud computing image
 description: Building a Real-Time License Plate Recognition System with OpenALPR, Flask, and Redis
 tags:
