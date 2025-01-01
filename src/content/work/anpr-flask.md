@@ -118,6 +118,6 @@ if __name__ == '__main__':
 
 
 
- ######  Get the Source code: https://github.com/micrometre/flaskalpr.git
+ ######  Get the Source code: https://github.com/micrometre/pyalpr.git
  <a href="https://github.com/micrometre/pyalpr.git" target="_blank">  </a>
 
