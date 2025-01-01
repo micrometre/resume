@@ -83,3 +83,4 @@ curl -H 'Content-Type: application/json' -d "{\"message\": \"Create VM\"}" 127.0
 - docker: Installs Docker and the docker-compose-plugin.
 - nodejs: Installs Node Version Manager (NVM) and Node.js.`
 
+###### Code Repository <a href="https://github.com/micrometre/ansible-events">https://github.com/micrometre/ansible-events </a>
