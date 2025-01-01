@@ -12,7 +12,7 @@ tags:
 
 
 
-*In this blog post, we'll explore Ansible Rulebook to create an event-driven automation system for provisioning and configuring Multipass VMs. This approach allows you to automate VM creation and configuration based on triggered events, streamlining your infrastructure management.*
+*In this blog post, we'll explore Ansible Rulebook to create an event-driven automation system for provisioning and configuring Multipass VMs. This approach allows you to automate VM creation and configuration based on triggered events.*
 
 #### Prerequisites 
 ###### Ensure you have Multipass and Ansible installed on your Ubuntu or Debian system. 
@@ -38,10 +38,36 @@ tags:
         </li>
     </ol>
 
+##### Setting Up the Environment
 
 
+###### Install Required Software:
+```shell
+sudo apt-get --assume-yes install openjdk-17-jdk python3-pip
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+export PATH=$PATH:~/.local/bin
+pip3 install ansible ansible-rulebook ansible-runner
+```
+- Java (required by Ansible), 
+- ansible: Core Ansible functionality.
+- ansible-rulebook: Enables event-driven automation workflows.
+- ansible-runner: Provides flexibility for running Ansible Playbooks.
 
 
+##### Start the Ansible Rulebook Engine
 
+```shell
+ansible-rulebook --rulebook webhook-example.yml -i inventory/inventory.yml --verbose
+```
+###### This command starts the Ansible Rulebook engine, specifying:
 
+```shell
+# The path to the Ansible Rulebook definition file.
+--rulebook webhook-example.yml: 
+# The path to the inventory file defining target hosts.
+-i inventory/inventory.yml: 
+# Enables detailed output for debugging purposes.
+--verbose: 
+```
+*Note: Replace webhook-example.yml and inventory/inventory.yml with the actual file paths for your setup.*
 
