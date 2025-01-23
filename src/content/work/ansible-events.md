@@ -83,4 +83,18 @@ curl -H 'Content-Type: application/json' -d "{\"message\": \"Create VM\"}" 127.0
 - docker: Installs Docker and the docker-compose-plugin.
 - nodejs: Installs Node Version Manager (NVM) and Node.js.`
 
-###### Code Repository <a href="https://github.com/micrometre/ansible-events">https://github.com/micrometre/ansible-events </a>
+
+
+
+- Ubuntu or Debian with Multipass <br/> 
+Refer to the official documentation for installation instructions <br/>
+<a href="https://canonical.com/multipass/install" target="_blank">
+canonical.com Install Multipass  
+ </a>
+
+
+
+ ###### Code Repository 
+ <a href="https://github.com/micrometre/ansible-events" target="_blank">https://github.com/micrometre/ansible-events 
+ Code Repository 
+</a>
